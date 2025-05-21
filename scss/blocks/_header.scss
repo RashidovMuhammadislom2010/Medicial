@@ -64,7 +64,6 @@
     gap: 50px;
 }
 
-
 .header__item-link {
     color: #fff;
 }
@@ -76,4 +75,15 @@
     border: none;
     color: #fff;
     cursor: pointer;
+}
+.header__services-color {
+    background: #04435E;
+}
+
+.header__services {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-between;
+    height: 100px;
 }

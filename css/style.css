@@ -95,6 +95,18 @@ ul, ol {
   cursor: pointer;
 }
 
+.header__services-color {
+  background: #04435E;
+}
+
+.header__services {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: space-between;
+  height: 100px;
+}
+
 .hero {
   background-image: url(../../img/bgi.jpg);
   background-repeat: no-repeat;
@@ -103,6 +115,10 @@ ul, ol {
   height: 80vh;
   position: relative;
   padding-bottom: 100px;
+}
+
+.hero__services-wrapper {
+  color: #fff;
 }
 
 .cover__blue {
@@ -230,6 +246,6 @@ ul, ol {
   color: #555;
 }
 
-.services {
-  margin-top: 200px;
+.services__img {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
