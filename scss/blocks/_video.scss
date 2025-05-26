@@ -1,0 +1,52 @@
+.video {
+    margin-top: 50px;
+    padding: 50px;
+}
+
+.video__inner {}
+
+.video__out {
+    display: flex;
+    gap: 25px;
+}
+
+.video__left {}
+
+.video__left-title {
+    font-weight: 500;
+    font-size: 44px;
+    color: #04243D;
+    line-height: 66px;
+}
+
+.video__right {}
+
+.video__right-img {}
+
+
+
+@media (max-width: 728px) {
+    .video__left-title {
+        font-weight: 350px;
+        font-size: 25px;
+        line-height: 25px;
+        width: 250px;
+    }
+
+    .video__right-img {
+        width: 350px;
+        height: 205px;
+    }
+}
+
+@media (max-width: 480px) {
+    .video__left-title {
+        font-size: 18px;
+    }
+
+    .video__out {
+        display: block;
+    }
+
+    .video__right {}
+}

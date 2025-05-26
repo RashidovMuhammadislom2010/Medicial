@@ -1,0 +1,154 @@
+.services-hero {
+  background-image: url(../../img/nerf.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 350px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.services-hero__overlay {
+  background: rgba(0, 0, 0, 0.45);
+  width: 100%;
+  height: 100%;
+  padding: 40px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.services-hero__title {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+.breadcrumb {
+  background: transparent;
+  font-size: 16px;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+  color: #fff;
+}
+
+.breadcrumb a {
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+
+.breadcrumb a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.service-container {
+  min-height: 100vh;
+  width: 100vw;
+  background: #f0f4f8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 30px;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  color: #333;
+}
+
+#service-name {
+  font-size: 64px;
+  font-weight: 800;
+  margin-bottom: 40px;
+  color: #2c3e50;
+}
+
+.service-img {
+  width: 80vw;
+  max-width: 500px;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 12px 25px rgba(44, 62, 80, 0.15);
+  margin-bottom: 40px;
+  object-fit: cover;
+  transition: transform 0.25s ease;
+}
+
+.service-img:hover {
+  transform: scale(1.05);
+}
+
+
+p {
+  font-size: 17px;
+  margin: 12px 0;
+  font-weight: 600;
+  color: #34495e;
+}
+
+strong {
+  color: #2980b9;
+}
+
+h4 {
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.service-about {
+  margin-top: 50px;
+  width: 900px;
+  font-size: 22px;
+  line-height: 1.6;
+  background: white;
+  padding: 30px 25px;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  color: #2c3e50;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+@media (max-width: 480px) {
+  #service-name {
+    font-size: 9vw;
+    margin-bottom: 30px;
+  }
+
+  .service-img {
+    width: 90vw;
+    max-width: none;
+    margin-bottom: 30px;
+  }
+
+  p {
+    font-size: 4vw;
+  }
+
+  .service-about {
+    font-size: 3.8vw;
+    padding: 20px 15px;
+    margin-top: 40px;
+  }
+}

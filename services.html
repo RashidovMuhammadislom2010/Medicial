@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__top">
+            <div class="container header__top-inner">
+                <div class="header__info">
+                    <div class="header__info-item">
+                        <i class="bi bi-telephone-fill"></i>
+                        <span>+998 (71) 249-15-90</span>
+                    </div>
+                    <div class="header__info-item">
+                        <i class="bi bi-envelope-fill"></i>
+                        <span>medicalexp@gmail.com</span>
+                    </div>
+                    <div class="header__info-item">
+                        <i class="bi bi-geo-alt-fill"></i>
+                        <span>Toshkent sh, Shayxontour tumani, Beruniy shoh ko‘chasi, 32-uy</span>
+                    </div>
+                </div>
+                <div class="header__socials">
+                    <i class="bi bi-telegram"></i>
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="header__main">
+            <div class="container header__main-inner">
+                <a href="./index.html" class="header__logo-link">
+                    <img src="./img/Logo.svg" alt="Expert Logo" class="header__logo" />
+                </a>
+
+                <nav class="header__nav" id="navMenu">
+                    <ul class="header__menu">
+                        <li><a href="#">Biz haqimizda</a></li>
+                        <li><a href="./services.html">Xizmatlarimiz</a></li>
+                        <li><a href="./details.html">Shifokorlar</a></li>
+                        <li><a href="#">Yangiliklar</a></li>
+                        <li><a href="./contact.html">Kontaktlar</a></li>
+                    </ul>
+                </nav>
+
+                <div class="header__actions">
+                    <button class="header__lang-btn">UZ</button>
+                    <button class="header__burger" id="burgerBtn">
+                        <span></span><span></span><span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="services-hero">
+            <div class="services-hero__overlay">
+                <div class="container text-center text-white">
+                    <h1 class="services-hero__title">Xizmatlar Tafsilotlari</h1>
+                    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center mb-0">
+                            <li class="breadcrumb-item"><a href="./index.html"
+                                    class="text-white-50 text-decoration-none">Bosh sahifa </a></li>
+                            <li class="breadcrumb-item active text-white" aria-current="page">Xizmatlarimiz</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </section>
+
+        <section class="service-container">
+            <div class="container">
+                <h1 id="service-name">Yuklanmoqda...</h1>
+                <img id="service-img" class="service-img" src="" alt="Xizmat rasmi" />
+                <p><strong>Shifokor:</strong> <span id="service-doctor"></span></p>
+                <p><strong>Narxi:</strong> <span id="service-price"></span> so'm</p>
+                <div id="service-about" class="service-about"></div>
+            </div>
+        </section>
+
+        <section class="expert">
+            <div class="container">
+                <div class="expert__inner">
+                    <div class="services__title-box">
+                        <h2 class="services__title">Bizning mutaxassislarimiz</h2>
+
+                        <button class="services__btn">Barcha xizmatlar</button>
+                    </div>
+
+                    <ul class="expert__list">
+                        <li class="expert__item">
+                            <img src="./img/Aziz.svg" alt="" class="expert__item-img">
+                            <h3 class="expert__item-title">Ortiqov Aziz
+                                Farixdjanovich
+                            </h3>
+                            <p class="expert__item-text">Дерматология</p>
+                        </li>
+                        <li class="expert__item">
+                            <img src="./img/shirin.svg" alt="" class="expert__item-img">
+                            <h3 class="expert__item-title">
+                                Safaeva Shirinxon
+                                Furkatovna
+                            </h3>
+                            <p class="expert__item-text">Гинекология</p>
+                        </li>
+                        <li class="expert__item">
+                            <img src="./img/iroda.svg" alt="" class="expert__item-img">
+                            <h3 class="expert__item-title">Magrupova Iroda
+                                Jahongirovna
+                            </h3>
+                            <p class="expert__item-text">Дерматокосметология</p>
+                        </li>
+                        <li class="expert__item">
+                            <img src="./img/gulmira.svg" alt="" class="expert__item-img">
+                            <h3 class="expert__item-title">Musaeva Gulmira
+                                Vladimirovna
+                            </h3>
+                            <p class="expert__item-text">Косметология</p>
+                        </li>
+                        <li class="expert__item">
+                            <img src="./img/Ergash.svg" alt="" class="expert__item-img">
+                            <h3 class="expert__item-title">Tajitdinov Ergash
+                                Yarkinovich
+                            </h3>
+                            <p class="expert__item-text">УЗИ</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__section footer__contact">
+                <h3 class="footer__title">KONTAKLAR</h3>
+                <div class="footer__item">
+                    <div class="footer__icon">
+                        <img src="./img/message.svg" alt="" class="footer__icoon-img">
+                    </div>
+                    <span class="footer-span">medicalexp@gmail.com</span>
+                </div>
+                <div class="footer__item">
+                    <div class="footer__icon">
+                        <img src="./img/tel.svg" alt="" class="footer__icoon-img">
+                    </div>
+                    <span class="footer-span">+998 (71) 249-15-90</span>
+                </div>
+                <div class="footer__item">
+                    <div class="footer__icon">
+                        <img src="./img/point.svg" alt="" class="footer__icoon-img">
+                    </div>
+                    <span class="footer-span">Toshkent sh, Shayxontour tumani, Beruniy shoh ko‘chasi, 32-uy</span>
+                </div>
+            </div>
+
+
+            <div class="footer__section">
+                <h3 class="footer__title">BIZ HAQIMIZDA</h3>
+                <ul class="footer__list">
+                    <li>Shifokorlar</li>
+                    <li>Xizmatlarimiz</li>
+                    <li>Yangiliklar</li>
+                    <li>Maxfiylik siyosati</li>
+                </ul>
+            </div>
+
+
+            <div class="footer__section">
+                <h3 class="footer__title">BEMORLAR UCHUN</h3>
+                <ul class="footer__list">
+                    <li>Uchrashuvni tayinlash uchun</li>
+                    <li>Yuklab olish katalogi</li>
+                </ul>
+            </div>
+
+
+            <div class="footer__section footer__feedback">
+                <h3 class="footer__title">FIKR-MULOHAZA</h3>
+                <form class="footer__form">
+                    <input type="text" placeholder="F.I.O." class="footer__input" />
+                    <input type="text" placeholder="Telefon raqamingiz" class="footer__input" />
+                    <textarea placeholder="Xabar" class="footer__textarea"></textarea>
+                    <button type="submit" class="footer__button">Yuborish</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/services.js"></script>
+</body>
+
+</html>

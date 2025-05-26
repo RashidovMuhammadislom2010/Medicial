@@ -9,6 +9,8 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
 
 
 </head>
@@ -16,73 +18,55 @@
 <body>
 
     <header class="header">
-        <div class="container">
-            <div class="header__inner">
-                <div class="header__top">
-                    <div class="header__top-about">
-                        <i class="bi bi-telephone-fill"> +998 (90) 910-77-11</i>
-
-                        <i class="bi bi-envelope-fill"> medicalexp@gmail.com</i>
-
-                        <i class="bi bi-geo-alt-fill"> Toshkent sh, Shayxontour tumani, Beruniy shoh ko‘chasi, 32-uy</i>
+        <div class="header__top">
+            <div class="container header__top-inner">
+                <div class="header__info">
+                    <div class="header__info-item">
+                        <i class="bi bi-telephone-fill"></i>
+                        <span>+998 (71) 249-15-90</span>
                     </div>
-
-                    <div class="header__top-nets">
-                        <i class="bi bi-telegram"></i>
-
-                        <i class="bi bi-facebook"></i>
-
-                        <i class="bi bi-instagram"></i>
-
-                        <i class="bi bi-youtube"></i>
+                    <div class="header__info-item">
+                        <i class="bi bi-envelope-fill"></i>
+                        <span>medicalexp@gmail.com</span>
                     </div>
+                    <div class="header__info-item">
+                        <i class="bi bi-geo-alt-fill"></i>
+                        <span>Toshkent sh, Shayxontour tumani, Beruniy shoh ko‘chasi, 32-uy</span>
+                    </div>
+                </div>
+                <div class="header__socials">
+                    <i class="bi bi-telegram"></i>
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-youtube"></i>
                 </div>
             </div>
         </div>
 
+        <div class="header__main">
+            <div class="container header__main-inner">
+                <a href="./index.html" class="header__logo-link">
+                    <img src="./img/Logo.svg" alt="Expert Logo" class="header__logo" />
+                </a>
 
-        <div class="header__main-color">
-            <div class="container">
-                <div class="header__main">
-                    <a href="./index.html" class="header__logo-link">
-                        <img src="./img/Logo.svg" alt="this is logo" class="header__logo">
-                    </a>
-                    <ul class="header__list">
-                        <li class="header__item">
-                            <a href="#" class="header__item-link">
-                                Biz haqimizda
-                            </a>
-                        </li>
-                        <li class="header__item">
-                            <a href="#" class="header__item-link">
-                                Xizmatlarimiz
-                            </a>
-                        </li>
-                        <li class="header__item">
-                            <a href="#" class="header__item-link">
-                                Shifokorlar
-                            </a>
-                        </li>
-                        <li class="header__item">
-                            <a href="#" class="header__item-link">
-                                Yangiliklar
-                            </a>
-                        </li>
-                        <li class="header__item">
-                            <a href="#" class="header__item-link">
-                                Kontaktlar
-                            </a>
-                        </li>
+                <nav class="header__nav" id="navMenu">
+                    <ul class="header__menu">
+                        <li><a href="#">Biz haqimizda</a></li>
+                        <li><a href="./services.html">Xizmatlarimiz</a></li>
+                        <li><a href="./details.html">Shifokorlar</a></li>
+                        <li><a href="#">Yangiliklar</a></li>
+                        <li><a href="./contact.html">Kontaktlar</a></li>
                     </ul>
+                </nav>
 
-                    <button class="header__btn-switch">UZ</button>
+                <div class="header__actions">
+                    <button class="header__lang-btn">UZ</button>
+                    <button class="header__burger" id="burgerBtn">
+                        <span></span><span></span><span></span>
+                    </button>
                 </div>
             </div>
         </div>
-
-
-
-
     </header>
 
 
@@ -163,31 +147,374 @@
                     </div>
 
                     <ul class="cards__list">
-                        <li class="card">
-                            <img src="./img/div.css-n6nkkh.svg" alt="Card Image" class="card__img">
-                            <h3 class="card__title">Card Title 1</h3>
-                            <p class="card__text">Bu yerda qisqacha tavsif matni yoziladi.</p>
+                        <a href="./services.html?id=1">
+                            <li class="card__item">
+                                <img src="./img/div.css-n6nkkh.svg" alt="Card Image" class="card__img">
+                                <h3 class="card__title">Plastik jarrohlik</h3>
+                                <p class="card__text">Expert Medical klinikasida plastik jarrohlik
+                                    Xususiy klinikamiz jarrohlik va plastik jarrohlik
+                                    sohasida katta yillik tajribaga ega. Biz
+                                    rinoplastika, liposaktsiya, yuz va tanani liftingi
+                                    kabi keng k…</p>
+                            </li>
+                        </a>
+                        <a href="./services.html?id=2">
+                            <li class="card__item" data-id="2">
+                                <img src="./img/uzi.svg" alt="Card Image" class="card__img">
+                                <h3 class="card__title">UTT</h3>
+                                <p class="card__text">Toshkent shahridagi yuqori sifatli ultratovush
+                                    tekshiruvi xizmati Toshkent shahrida
+                                    joylashgan Expert Medical xususiy klinika
+                                    keng ko‘lamli tibbiy xizmatlarni, jumladan,
+                                    ultratovush tekshiruvini ham…</p>
+                            </li>
+                        </a>
+                        <a href="./services.html?id=3">
+                            <li class="card__item">
+                                <img src="./img/endokronoligiya.svg" alt="Card Image" class="card__img">
+                                <h3 class="card__title">Endokrinologiya</h3>
+                                <p class="card__text">Toshkent shahridan tajribali endokrinolog yoki
+                                    endokrinologiya sohasiga mo‘ljalangan
+                                    xizmatlar kerakmi? Bu juda ham oson! Biz
+                                    bilan roʻyxatdan oʻting.</p>
+                            </li>
+                        </a>
+                        <a href="./services.html?id=4">
+                            <li class="card__item">
+                                <img src="./img/kosmetologiya.svg" alt="Card Image" class="card__img">
+                                <h3 class="card__title">Kosmetologiya</h3>
+                                <p class="card__text">Toshkent shahridagi kosmetologiya  Agar siz
+                                    Toshkentda tajribali kosmetolog shifokorlarni
+                                    izlayotgan bo'lsangiz, u holda Expert Medical
+                                    xususiy klinikasi siz uchun ajoyib tanlov
+                                    bo'ladi.
+                                </p>
+                            </li>
+                        </a>
+                        <a href="./services.html?id=5">
+                            <li class="card__item">
+                                <img src="./img/пштулщдщп.svg" alt="Card Image" class="card__img">
+                                <h3 class="card__title">Ginekologiya</h3>
+                                <p class="card__text">Expert Medical Clinic va GinekologiyaExpert Medical
+                                    Clinic - bu ayol tanasining salomatligi va farovonligi
+                                    uchun sizning ishonchli yechimingiz. Ko'p yillik
+                                    tajribaga va ambitsiyali yondashuvga ega bo…
+                                </p>
+                            </li>
+                        </a>
+                        <a href="./services.html?id=6">
+                            <li class="card__item">
+                                <img src="./img/estetika.svg" alt="Card Image" class="card__img">
+                                <h3 class="card__title">Estetik ginekologiya</h3>
+                                <p class="card__text">Expert Medical Clinic klinikasidagi estetik ginekologiya
+                                    nima?Estetik ginekologiya - ayollarning tashqi ko'rinishi
+                                    va sogʻligini yaxshilash uchun ginekologik amaliyotni
+                                    estetik muolajalar bilan birla…
+                                </p>
+                            </li>
+                        </a>
+                        <a href="./services.html?id=7">
+                            <li class="card__item">
+                                <img src="./img/dermatoilog.svg" alt="Card Image" class="card__img">
+                                <h3 class="card__title">Dermatokosmetologiya</h3>
+                                <p class="card__text">Expert Medical klinikasida dermatokosmetologiya
+                                    nima? Dermatokosmetologiya — bu teri, soch va
+                                    tirnoqlarni har tomonlama parvarish qilish bilan
+                                    shug'ullanadigan tibbiyot sohalaridan biridir.
+                                </p>
+                            </li>
+                        </a>
+                        <a href="./services.html?id=8">
+                            <li class="card__item">
+                                <img src="./img/derm.svg" alt="Card Image" class="card__img">
+                                <h3 class="card__title">Dermatologiya</h3>
+                                <p class="card__text">Expert Medical klinikasida dermatologiya nima?“ Expert
+                                    Medical Clinic” tibbiyot markazimiz dermatologiyaga
+                                    ixtisoslashgan bo‘lib, shifokorlarimiz teri, soch va tirnoq
+                                    kasalliklarini tashxislash, dav…
+                                </p>
+                            </li>
+                        </a>
+                        <a href="./services.html?id=9">
+                            <li class="card__item">
+                                <img src="./img/trixiologiya.svg" alt="Card Image" class="card__img">
+                                <h3 class="card__title">Trixologiya</h3>
+                                <p class="card__text">Expert Medical Clinic – Toshkent shahridagi
+                                    bemorlarga yuqori sifatli tibbiy yordam ko‘rsatuvchi
+                                    trixologiyaga ixtisoslashgan tibbiyot markazi. Agar
+                                    sizda soch yoki bosh terisi bilan bog'liq muammola…
+                                </p>
+                            </li>
+                        </a>
+                        <a href="./services.html?id=10">
+                            <li class="card__item">
+                                <img src="./img/lazer.svg" alt="Card Image" class="card__img">
+                                <h3 class="card__title">Lazerli kosmetologiya</h3>
+                                <p class="card__text">Toshkent shahridagi lazer kosmetologiyasi  Bizning 
+                                    Expert Medical Clinic tibbiy markazimiz lazer
+                                    kosmetologiyasiga ixtisoslashgan yetakchi xususiy
+                                    klinika hisoblanadi.
+                                </p>
+                            </li>
+                        </a>
+                        <a href="./services.html?id=11">
+                            <li class="card__item">
+                                <img src="./img/labototoriya.svg" alt="Card Image" class="card__img">
+                                <h3 class="card__title">Laboratoriya, tahlillar</h3>
+                                <p class="card__text">Expert Medical klinikasida laboratoriya tekshiruvlari
+                                    Bizning Toshkent shahrida joylashgan analiz
+                                    laboratoriyalarimiz qon tahlillari, biokimyoviy testlar va
+                                    boshqa ko‘plab tibbiy xizmatlarni taklif …
+                                </p>
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="video">
+            <div class="container">
+                <div class="video__inner">
+                    <div class="video__out">
+                        <div class="video__left">
+                            <h1 class="video__left-title">
+                                Toshkent shahridagi eng yaxshi
+                                xususiy klinika Expert Medical
+                                ga xush kelibsiz!
+                            </h1>
+                        </div>
+                        <div class="video__right">
+                            <img src="./img/video.svg" alt="" class="video__right-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="expert">
+            <div class="container">
+                <div class="expert__inner">
+                    <div class="services__title-box">
+                        <h2 class="services__title">Bizning mutaxassislarimiz</h2>
+
+                        <button class="services__btn">Barcha xizmatlar</button>
+                    </div>
+
+                    <ul class="expert__list">
+                        <li class="expert__item">
+                            <img src="./img/Aziz.svg" alt="" class="expert__item-img">
+                            <h3 class="expert__item-title">Ortiqov Aziz
+                                Farixdjanovich
+                            </h3>
+                            <p class="expert__item-text">Дерматология</p>
                         </li>
-                        <li class="card">
-                            <img src="./img/div.css-n6nkkh.svg" alt="Card Image" class="card__img">
-                            <h3 class="card__title">Card Title 1</h3>
-                            <p class="card__text">Bu yerda qisqacha tavsif matni yoziladi.</p>
+                        <li class="expert__item">
+                            <img src="./img/shirin.svg" alt="" class="expert__item-img">
+                            <h3 class="expert__item-title">
+                                Safaeva Shirinxon
+                                Furkatovna
+                            </h3>
+                            <p class="expert__item-text">Гинекология</p>
                         </li>
-                        <li class="card">
-                            <img src="./img/div.css-n6nkkh.svg" alt="Card Image" class="card__img">
-                            <h3 class="card__title">Card Title 1</h3>
-                            <p class="card__text">Bu yerda qisqacha tavsif matni yoziladi.</p>
+                        <li class="expert__item">
+                            <img src="./img/iroda.svg" alt="" class="expert__item-img">
+                            <h3 class="expert__item-title">Magrupova Iroda
+                                Jahongirovna
+                            </h3>
+                            <p class="expert__item-text">Дерматокосметология</p>
                         </li>
-                        <li class="card">
-                            <img src="./img/div.css-n6nkkh.svg" alt="Card Image" class="card__img">
-                            <h3 class="card__title">Card Title 1</h3>
-                            <p class="card__text">Bu yerda qisqacha tavsif matni yoziladi.</p>
+                        <li class="expert__item">
+                            <img src="./img/gulmira.svg" alt="" class="expert__item-img">
+                            <h3 class="expert__item-title">Musaeva Gulmira
+                                Vladimirovna
+                            </h3>
+                            <p class="expert__item-text">Косметология</p>
+                        </li>
+                        <li class="expert__item">
+                            <img src="./img/Ergash.svg" alt="" class="expert__item-img">
+                            <h3 class="expert__item-title">Tajitdinov Ergash
+                                Yarkinovich
+                            </h3>
+                            <p class="expert__item-text">УЗИ</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="why">
+            <div class="why__container">
+                <h2 class="why__title">Nega bizni tanlaysiz?</h2>
+                <p class="why__text">
+                    <strong>Biz haqimizda:</strong><br>
+                    «Expert Medical Clinic» tibbiyot markazimiz keng ko‘lamli tibbiy xizmatlar, umumiy tibbiy yordam,
+                    mutaxassislar maslahati, diagnostika va laboratoriya tekshiruvlari xizmatlarini taqdim etadi.
+                </p>
+                <p class="why__text">
+                    <strong>Nega aynan bizni tanlashingiz kerak?</strong><br>
+                    Bizning jamoamiz – Toshkentning ko‘p yillik tajribaga ega, o‘z ishining ustasi va sizga 24/7 yordam
+                    berishga tayyor shifokorlardan iborat.
+                </p>
+                <p class="why__text">
+                    <strong>Yana savollaringiz bormi?</strong><br>
+                    Qo‘shimcha savollaringiz bo‘lsa, ikkilanmay biz bilan bog‘laning!
+                </p>
+
+                <div class="why__cards">
+                    <div class="why__card">
+                        <img src="./img/qol.svg" alt="Icon" class="why__card-icon">
+                        <p class="why__card-text">Har kimga individual yondashuv</p>
+                    </div>
+                    <div class="why__card">
+                        <img src="./img/labototory.svg" alt="Icon" class="why__card-icon">
+                        <p class="why__card-text">O'z laboratoriyasi</p>
+                    </div>
+                    <div class="why__card">
+                        <img src="./img/moderrn.svg" alt="Icon" class="why__card-icon">
+                        <p class="why__card-text">Zamonaviy uskunalar</p>
+                    </div>
+                    <div class="why__card">
+                        <img src="./img/protect.svg" alt="Icon" class="why__card-icon">
+                        <p class="why__card-text">Sifat nazorati</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="news">
+            <div class="container">
+                <div class="news__inner">
+                    <div class="services__title-box">
+                        <h2 class="services__title">Bizning eng so'nggi bloglarimiz</h2>
+
+                        <button class="services__btn">Barcha xizmatlar</button>
+                    </div>
+
+                    <ul class="news__list">
+                        <li class="news__item">
+                            <img src="./img/soch tokilishi.svg" alt="" class="news__item-img">
+                            <h3 class="news__item-title">Как остановить облысение?</h3>
+                            <p class="news__item-text">Вас беспокоит выпадение и облысение?
+                                Это распространенная проблема, с
+                                которой сталкиваются многие люди.
+                                Знаете ли вы, что существуют
+                                естественные спо…
+                            </p>
+                            <hr>
+                            <p class="news__item-data">2024-03-27 05:35:54</p>
+                        </li>
+                        <li class="news__item">
+                            <img src="./img/navruz.svg" alt="" class="news__item-img">
+                            <h3 class="news__item-title">Как остановить облысение?</h3>
+                            <p class="news__item-text">Вас беспокоит выпадение и облысение?
+                                Это распространенная проблема, с
+                                которой сталкиваются многие люди.
+                                Знаете ли вы, что существуют
+                                естественные спо…
+                            </p>
+                            <hr>
+                            <p class="news__item-data">2024-03-27 05:35:54</p>
+                        </li>
+                        <li class="news__item">
+                            <img src="./img/tiktok.svg" alt="" class="news__item-img">
+                            <h3 class="news__item-title">Как остановить облысение?</h3>
+                            <p class="news__item-text">Вас беспокоит выпадение и облысение?
+                                Это распространенная проблема, с
+                                которой сталкиваются многие люди.
+                                Знаете ли вы, что существуют
+                                естественные спо…
+                            </p>
+                            <hr>
+                            <p class="news__item-data">2024-03-27 05:35:54</p>
+                        </li>
+                        <li class="news__item">
+                            <img src="./img/xirurg.svg" alt="" class="news__item-img">
+                            <h3 class="news__item-title">Как остановить облысение?</h3>
+                            <p class="news__item-text">Вас беспокоит выпадение и облысение?
+                                Это распространенная проблема, с
+                                которой сталкиваются многие люди.
+                                Знаете ли вы, что существуют
+                                естественные спо…
+                            </p>
+                            <hr>
+                            <p class="news__item-data">2024-03-27 05:35:54</p>
+                        </li>
+                        <li class="news__item">
+                            <img src="./img/soch tokilishi.svg" alt="" class="news__item-img">
+                            <h3 class="news__item-title">Как остановить облысение?</h3>
+                            <p class="news__item-text">Вас беспокоит выпадение и облысение?
+                                Это распространенная проблема, с
+                                которой сталкиваются многие люди.
+                                Знаете ли вы, что существуют
+                                естественные спо…
+                            </p>
+                            <hr>
+                            <p class="news__item-data">2024-03-27 05:35:54</p>
                         </li>
                     </ul>
                 </div>
             </div>
         </section>
     </main>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__section footer__contact">
+                <h3 class="footer__title">KONTAKLAR</h3>
+                <div class="footer__item">
+                    <div class="footer__icon">
+                        <img src="./img/message.svg" alt="" class="footer__icoon-img">
+                    </div>
+                    <span class="footer-span">medicalexp@gmail.com</span>
+                </div>
+                <div class="footer__item">
+                    <div class="footer__icon">
+                        <img src="./img/tel.svg" alt="" class="footer__icoon-img">
+                    </div>
+                    <span class="footer-span">+998 (71) 249-15-90</span>
+                </div>
+                <div class="footer__item">
+                    <div class="footer__icon">
+                        <img src="./img/point.svg" alt="" class="footer__icoon-img">
+                    </div>
+                    <span class="footer-span">Toshkent sh, Shayxontour tumani, Beruniy shoh ko‘chasi, 32-uy</span>
+                </div>
+            </div>
+
+
+            <div class="footer__section">
+                <h3 class="footer__title">BIZ HAQIMIZDA</h3>
+                <ul class="footer__list">
+                    <li>Shifokorlar</li>
+                    <li>Xizmatlarimiz</li>
+                    <li>Yangiliklar</li>
+                    <li>Maxfiylik siyosati</li>
+                </ul>
+            </div>
+
+
+            <div class="footer__section">
+                <h3 class="footer__title">BEMORLAR UCHUN</h3>
+                <ul class="footer__list">
+                    <li>Uchrashuvni tayinlash uchun</li>
+                    <li>Yuklab olish katalogi</li>
+                </ul>
+            </div>
+
+
+            <div class="footer__section footer__feedback">
+                <h3 class="footer__title">FIKR-MULOHAZA</h3>
+                <form class="footer__form">
+                    <input type="text" placeholder="F.I.O." class="footer__input" />
+                    <input type="text" placeholder="Telefon raqamingiz" class="footer__input" />
+                    <textarea placeholder="Xabar" class="footer__textarea"></textarea>
+                    <button type="submit" class="footer__button">Yuborish</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+
     <script src="./js/script.js"></script>
 </body>
 

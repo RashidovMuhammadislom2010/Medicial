@@ -1,0 +1,61 @@
+.why {
+  padding: 60px 20px;
+  background-color: #f8f9fa;
+}
+
+.why__container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.why__title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #0a2c42;
+  margin-bottom: 30px;
+  border-bottom: 4px solid #0a2c42;
+  display: inline-block;
+}
+
+.why__text {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+.why__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.why__card {
+  flex: 1 1 200px;
+  min-width: 220px;
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+  text-align: center;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.why__card:hover {
+  transform: translateY(-5px);
+  background-color: #eaf6ff;
+}
+
+.why__card-icon {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 15px;
+}
+
+.why__card-text {
+  font-size: 16px;
+  font-weight: 500;
+  color: #0a2c42;
+}
