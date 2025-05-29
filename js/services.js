@@ -1,10 +1,10 @@
 const services = [
   {
     id: 1,
-    name: "Ginekologiya",
-    price: 150000,
-    doctor: "Dr. Saida Karimova",
-    img: "./img/пштулщдщп.svg",
+    name: "Plastik jarrohlik",
+    price: 1500000,
+    doctor: "Dr. Kamoliddin Raxmatullayev",
+    img: "./img/div.css-n6nkkh.svg",
     about: {
       "Nega aynan biz?":
         "Expert Medical Clinic o'z sohasida yetakchi bo'lishi bilan ajralib turadi. Biz malakali shifokorlar, zamonaviy texnologiyalar va mijozlarga yuqori darajadagi xizmat ko‘rsatish bilan faxrlanamiz.",
@@ -169,7 +169,7 @@ const services = [
         "Sizning shaxsiy ma’lumotlaringiz va tashrif tafsilotlari qat’iy tarzda sir saqlanadi. Bizda ''maxfiylik'' – eng ustuvor qadriyatlarimizdan biridir.",
     },
   },
-  
+
   {
     id: 11,
     name: "Laboratoriya, tahlillar",

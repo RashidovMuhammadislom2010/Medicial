@@ -49,38 +49,13 @@
                     <img src="./img/Logo.svg" alt="Expert Logo" class="header__logo" />
                 </a>
 
-        <div class="header__main-color">
-            <div class="container">
-                <div class="header__main">
-                    <a href="./index.html" class="header__logo-link">
-                        <img src="./img/Logo.svg" alt="this is logo" class="header__logo">
-                    </a>
-                    <ul class="header__list">
-                        <li class="header__item">
-                            <a href="#" class="header__item-link">
-                                Biz haqimizda
-                            </a>
-                        </li>
-                        <li class="header__item">
-                            <a href="#" class="header__item-link">
-                                Xizmatlarimiz
-                            </a>
-                        </li>
-                        <li class="header__item">
-                            <a href="./doctors.html" class="header__item-link">
-                                Shifokorlar
-                            </a>
-                        </li>
-                        <li class="header__item">
-                            <a href="#" class="header__item-link">
-                                Yangiliklar
-                            </a>
-                        </li>
-                        <li class="header__item">
-                            <a href="#" class="header__item-link">
-                                Kontaktlar
-                            </a>
-                        </li>
+                <nav class="header__nav" id="navMenu">
+                    <ul class="header__menu">
+                        <li><a href="#">Biz haqimizda</a></li>
+                        <li><a href="./services.html">Xizmatlarimiz</a></li>
+                        <li><a href="./doctors.html">Shifokorlar</a></li>
+                        <li><a href="#">Yangiliklar</a></li>
+                        <li><a href="#">Kontaktlar</a></li>
                     </ul>
                 </nav>
 
@@ -138,13 +113,13 @@
                                 <li class="hero__about-item">
                                     <img src="./img/doctor.svg" alt="" class="hero__about-item-img">
                                     <p class="hero__about-item-number">750</p>
-                                    <p class="hero__about-item-text">Bir yillik tajriba</p>
+                                    <p class="hero__about-item-text">Doctor va Hamshiralar</p>
                                 </li>
 
                                 <li class="hero__about-item">
                                     <img src="./img/che4ckmark.svg" alt="" class="hero__about-item-img">
                                     <p class="hero__about-item-number">6</p>
-                                    <p class="hero__about-item-text">Bir yillik tajriba</p>
+                                    <p class="hero__about-item-text">yillik tajriba</p>
                                 </li>
 
                                 <li class="hero__about-item">
@@ -326,45 +301,46 @@
                         <button class="services__btn">Barcha xizmatlar</button>
                     </div>
 
+
                     <ul class="expert__list">
-                        <li class="expert__item">
-                            <img src="./img/Aziz.svg" alt="" class="expert__item-img">
-                            <h3 class="expert__item-title">Ortiqov Aziz
-                                Farixdjanovich
-                            </h3>
-                            <p class="expert__item-text">Дерматология</p>
-                        </li>
-                        <li class="expert__item">
-                            <img src="./img/shirin.svg" alt="" class="expert__item-img">
-                            <h3 class="expert__item-title">
-                                Safaeva Shirinxon
-                                Furkatovna
-                            </h3>
-                            <p class="expert__item-text">Гинекология</p>
-                        </li>
-                        <li class="expert__item">
-                            <img src="./img/iroda.svg" alt="" class="expert__item-img">
-                            <h3 class="expert__item-title">Magrupova Iroda
-                                Jahongirovna
-                            </h3>
-                            <p class="expert__item-text">Дерматокосметология</p>
-                        </li>
-                        <li class="expert__item">
-                            <img src="./img/gulmira.svg" alt="" class="expert__item-img">
-                            <h3 class="expert__item-title">Musaeva Gulmira
-                                Vladimirovna
-                            </h3>
-                            <p class="expert__item-text">Косметология</p>
-                        </li>
-                        <li class="expert__item">
-                            <img src="./img/Ergash.svg" alt="" class="expert__item-img">
-                            <h3 class="expert__item-title">Tajitdinov Ergash
-                                Yarkinovich
-                            </h3>
-                            <p class="expert__item-text">УЗИ</p>
-                        </li>
+                        <a href="./doctors.html" data-doctor-id="3">
+                            <li class="expert__item">
+                                <img src="./img/Ulugberk.svg" alt="" class="expert__item-img">
+                                <h3 class="expert__item-title">Muslimov Ulug'bek Yakubjanovich</h3>
+                                <p class="expert__item-text">Дерматология</p>
+                            </li>
+                        </a>
+                        <a href="./doctors.html" data-doctor-id="4">
+                            <li class="expert__item">
+                                <img src="./img/shirin.svg" alt="" class="expert__item-img">
+                                <h3 class="expert__item-title">Safaeva Shirinxon Furkatovna</h3>
+                                <p class="expert__item-text">Гинекология</p>
+                            </li>
+                        </a>
+                        <a href="./doctors.html" data-doctor-id="5">
+                            <li class="expert__item">
+                                <img src="./img/iroda.svg" alt="" class="expert__item-img">
+                                <h3 class="expert__item-title">Magrupova Iroda Jahongirovna</h3>
+                                <p class="expert__item-text">Дерматокосметология</p>
+                            </li>
+                        </a>
+                        <a href="./doctors.html" data-doctor-id="6">
+                            <li class="expert__item">
+                                <img src="./img/gulmira.svg" alt="" class="expert__item-img">
+                                <h3 class="expert__item-title">Musaeva Gulmira Vladimirovna</h3>
+                                <p class="expert__item-text">Косметология</p>
+                            </li>
+                        </a>
+                        <a href="./doctors.html" data-doctor-id="7">
+                            <li class="expert__item">
+                                <img src="./img/Ergash.svg" alt="" class="expert__item-img">
+                                <h3 class="expert__item-title">Tajitdinov Ergash Yarkinovich</h3>
+                                <p class="expert__item-text">УЗИ</p>
+                            </li>
+                        </a>
                     </ul>
                 </div>
+
             </div>
         </section>
 

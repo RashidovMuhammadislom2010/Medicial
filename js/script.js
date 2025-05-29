@@ -1,27 +1,25 @@
-const burgerBtn = document.getElementById("burgerBtn");
-const navMenu = document.getElementById("navMenu");
+// const burger = document.getElementById("burgerBtn");
+// const navMenu = document.getElementById("navMenu");
 
-burgerBtn.addEventListener("click", () => {
-  navMenu.classList.toggle("active");
-  burgerBtn.classList.toggle("active");
+// burger.addEventListener("click", () => {
+//   burger.classList.toggle("active");
+//   navMenu.classList.toggle("active");
+//   document.body.classList.toggle("menu-open");
+// });
 
+// document.addEventListener("click", (e) => {
+//   if (!navMenu.contains(e.target) && !burger.contains(e.target)) {
+//     burger.classList.remove("active");
+//     navMenu.classList.remove("active");
+//     document.body.classList.remove("menu-open");
+//   }
+// });
 
-  if (navMenu.classList.contains("active")) {
-    document.body.classList.add("menu-open");
-  } else {
-    document.body.classList.remove("menu-open");
-  }
-});
+const burger = document.getElementById("burgerBtn");
+  const nav = document.getElementById("mobileNav");
 
-
-document.body.addEventListener("click", (e) => {
-  if (e.target.classList.contains("menu-open")) {
-    navMenu.classList.remove("active");
-    burgerBtn.classList.remove("active");
-    document.body.classList.remove("menu-open");
-  }
-});
-
-
-
-
+  burger.addEventListener("click", () => {
+    burger.classList.toggle("active");
+    nav.classList.toggle("active");
+    document.body.classList.toggle("menu-open");
+  });
